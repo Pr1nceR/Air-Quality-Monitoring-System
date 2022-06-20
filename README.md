@@ -1,5 +1,5 @@
 # Air-Quality-Monitoring-System
-Air Quality Monitoring System Or AQMS is a Device that can detect pollutants, temperature and humidity. The device is paired with A android mobile application connected via bluetooth
+Air Quality Monitoring System Or AQMS is a device that can detect pollutants, temperature and humidity. The device is paired with an android mobile application connected via bluetooth
 
 ## How To Run the Device
 1. Turn on the AQMS device and wait 20 seconds for the sensors to warm up.
