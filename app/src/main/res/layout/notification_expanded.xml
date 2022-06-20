@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:background="#7C524D"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/temp_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0.00"
+                android:background="@color/values"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/temp_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/good"
+                android:text="TEMP"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:background="@color/values"
+                android:id="@+id/hum_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0.00"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/hum_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/good"
+                android:text="HUM"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:background="@color/values"
+
+                android:id="@+id/co2_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0.00"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/co2_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/good"
+                android:text="CO2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:background="@color/values"
+
+                android:id="@+id/p.m1_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0.00"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/pm1_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/good"
+                android:text="P.M1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:background="@color/values"
+
+                android:id="@+id/p.m2.5_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0.00"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/pm2_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/good"
+                android:text="P.M2.5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:background="@color/values"
+
+                android:id="@+id/p.m10_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0.00"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/pm10_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/good"
+                android:text="P.M10"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:background="@color/values"
+
+            android:id="@+id/mp503_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0.00"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/mp503_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/good"
+            android:text="MP5030"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>
