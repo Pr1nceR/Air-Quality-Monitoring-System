@@ -12,5 +12,6 @@ Air Quality Monitoring System Or AQMS is a Device that can detect pollutants, te
   - PM10
   - VOC
   - Co2 
+![](ScreenShots/screen1. png)   ![](ScreenShots/screen2.png)
 - Detects Temperature and humidity
 - Notifies the user when the environment is Hazardous 
