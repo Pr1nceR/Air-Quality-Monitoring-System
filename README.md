@@ -7,6 +7,10 @@ Air Quality Monitoring System Or AQMS is a Device that can detect pollutants, te
 3. launch the app and click the bluetooth icon to the app to the device.
 
 ## Features
-- Detects Pollutants such as: PM2.5, PM10, VOC, Co2
+- Detects Pollutants such as: 
+  -PM2.5
+  -PM10
+  -VOC
+  -Co2
 - Detects Temperature and humidity
 - Notifies the user when the environment is Hazardous 
